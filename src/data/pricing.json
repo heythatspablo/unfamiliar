@@ -1,0 +1,89 @@
+{
+  "plans": [
+    {
+      "id": 1,
+      "name": "Starter",
+      "price": "$0.50",
+      "priceLabel": "per verification",
+      "description": "For startups and small teams getting started with identity verification.",
+      "recommended": false
+    },
+    {
+      "id": 2,
+      "name": "Growth",
+      "price": "$0.35",
+      "priceLabel": "per verification",
+      "description": "For growing businesses with higher verification volumes.",
+      "recommended": true
+    },
+    {
+      "id": 3,
+      "name": "Enterprise",
+      "price": "Custom",
+      "priceLabel": "volume pricing",
+      "description": "For large organizations with custom compliance and integration needs.",
+      "recommended": false
+    }
+  ],
+  "features": [
+    {
+      "category": "API Access",
+      "items": [
+        {
+          "name": "Monthly Verifications",
+          "values": ["Up to 500", "Up to 5,000", "Unlimited"]
+        },
+        {
+          "name": "API Rate Limit",
+          "values": ["10/min", "100/min", "Custom"]
+        },
+        {
+          "name": "SDK Access",
+          "values": [true, true, true]
+        },
+        {
+          "name": "Webhook Support",
+          "values": [false, true, true]
+        }
+      ]
+    },
+    {
+      "category": "Verification Features",
+      "items": [
+        {
+          "name": "Document Types",
+          "values": ["50+", "150+", "200+"]
+        },
+        {
+          "name": "Face Match",
+          "values": [true, true, true]
+        },
+        {
+          "name": "Liveness Detection",
+          "values": [false, true, true]
+        }
+      ]
+    },
+    {
+      "category": "Support",
+      "items": [
+        {
+          "name": "Email Support",
+          "values": [true, true, true]
+        },
+        {
+          "name": "Priority Support",
+          "values": [false, true, true]
+        },
+        {
+          "name": "Dedicated CSM",
+          "values": [false, false, true]
+        },
+        {
+          "name": "SLA",
+          "values": ["99%", "99.9%", "99.99%"]
+        }
+      ]
+    }
+  ]
+}

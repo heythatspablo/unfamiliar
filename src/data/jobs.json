@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Backend Engineer",
+    "department": "Engineering",
+    "location": "Remote",
+    "type": "Full-Time"
+  },
+  {
+    "id": 2,
+    "title": "ML Engineer - Computer Vision",
+    "department": "Engineering",
+    "location": "San Jose, CA",
+    "type": "Full-Time"
+  },
+  {
+    "id": 3,
+    "title": "Senior Frontend Engineer",
+    "department": "Engineering",
+    "location": "Remote",
+    "type": "Full-Time"
+  },
+  {
+    "id": 4,
+    "title": "Product Manager - API Platform",
+    "department": "Product",
+    "location": "Remote",
+    "type": "Full-Time"
+  },
+  {
+    "id": 5,
+    "title": "Enterprise Account Executive",
+    "department": "Sales",
+    "location": "Remote",
+    "type": "Full-Time"
+  },
+  {
+    "id": 6,
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "location": "Remote",
+    "type": "Full-Time"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/products",
+    "label": "Products"
+  },
+  {
+    "path": "/solutions",
+    "label": "Solutions"
+  },
+  {
+    "path": "/developers",
+    "label": "Developers"
+  },
+  {
+    "path": "/pricing",
+    "label": "Pricing"
+  },
+  {
+    "path": "/about",
+    "label": "About"
+  }
+]

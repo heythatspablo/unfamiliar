@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What types of IDs can you verify?",
+    "answer": "We support driver's licenses, passports, national IDs, and 200+ document templates from countries worldwide. Our AI continuously learns new document formats."
+  },
+  {
+    "id": 2,
+    "question": "How does biometric face matching work?",
+    "answer": "Our AI compares a live selfie to the photo on the ID document, checking for liveness and anti-spoofing to ensure the person is real and matches their document."
+  },
+  {
+    "id": 3,
+    "question": "How fast is the verification process?",
+    "answer": "Average verification time is 18 seconds. Our AI processes document scans, extracts data, authenticates security features, and performs face matching in real-time."
+  },
+  {
+    "id": 4,
+    "question": "Do you offer on-premise deployment?",
+    "answer": "Yes. We offer cloud API, SDK integration, and on-premise hardware bundles including scanners and kiosks for physical point-of-entry verification."
+  },
+  {
+    "id": 5,
+    "question": "What industries do you serve?",
+    "answer": "We serve cannabis, alcohol, gaming, FinTech, banking, crypto, hospitality, retail, security, government, and transportation industries with compliance-ready solutions."
+  }
+]

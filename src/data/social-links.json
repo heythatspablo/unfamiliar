@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LinkedIn",
+    "href": "https://linkedin.com/company/unfamiliar-id",
+    "ariaLabel": "Follow unfamiliar.id on LinkedIn"
+  },
+  {
+    "name": "Twitter",
+    "href": "https://twitter.com/unfamiliar_id",
+    "ariaLabel": "Follow unfamiliar.id on Twitter"
+  },
+  {
+    "name": "GitHub",
+    "href": "https://github.com/unfamiliar-id",
+    "ariaLabel": "View unfamiliar.id on GitHub"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "quote": "unfamiliar.id cut our verification time from 2 minutes to 18 seconds. Our customers love the seamless experience.",
+    "name": "Cannabis Dispensary",
+    "role": "Compliance Manager",
+    "image": "/images/testimonial-photo-lg.png"
+  },
+  {
+    "id": 2,
+    "quote": "The API integration took less than a day. We went from manual ID checks to fully automated verification overnight.",
+    "name": "FinTech Startup",
+    "role": "CTO",
+    "image": "/images/testimonial-photo-lg.png"
+  },
+  {
+    "id": 3,
+    "quote": "Face match with liveness detection stopped the fraud attempts we were seeing. ROI was immediate.",
+    "name": "Online Marketplace",
+    "role": "Head of Trust & Safety",
+    "image": "/images/testimonial-photo-lg.png"
+  }
+]

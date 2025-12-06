@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "James Sterling",
+    "position": "CEO & Founder",
+    "image": "/images/unfamiliar-james.png",
+    "bio": "Cambridge Computer Science alumnus with 15+ years in cybersecurity. Previously led digital identity initiatives at Barclays and advised the UK Government on secure authentication standards."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Eleanor Vance",
+    "position": "Chief Technology Officer",
+    "image": "/images/unfamiliar-eleanor.png",
+    "bio": "PhD in Computer Vision from Oxford. Former DeepMind researcher specializing in facial recognition ethics and spoofing detection. Brings deep academic rigour to our AI stack."
+  },
+  {
+    "id": 3,
+    "name": "Arthur Pendelton",
+    "position": "VP of Engineering",
+    "image": "/images/unfamiliar-arthur.png",
+    "bio": "Imperial College London graduate who scaled engineering teams at Monzo and Revolut. Expert in building high-availability distributed systems for regulated UK financial markets."
+  },
+  {
+    "id": 4,
+    "name": "Sarah Kensington",
+    "position": "VP of Product",
+    "image": "/images/unfamiliar-sarah.png",
+    "bio": "LSE graduate with a background in RegTech. Specialized in FCA compliance and identity verification workflows for the UK and European markets."
+  }
+]

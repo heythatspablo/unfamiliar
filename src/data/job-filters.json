@@ -1,0 +1,14 @@
+{
+  "departments": [
+    "All departments",
+    "Engineering",
+    "Product",
+    "Sales",
+    "Customer Success"
+  ],
+  "locations": [
+    "All locations",
+    "Remote",
+    "San Jose, CA"
+  ]
+}

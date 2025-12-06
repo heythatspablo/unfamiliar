@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "value": "18s",
+    "label": "Average Verification Time"
+  },
+  {
+    "id": 2,
+    "value": "94%",
+    "label": "Pass Rate"
+  },
+  {
+    "id": 3,
+    "value": "200+",
+    "label": "Document Templates"
+  },
+  {
+    "id": 4,
+    "value": "99.9%",
+    "label": "Uptime SLA"
+  }
+]

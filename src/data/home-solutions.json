@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Identity Verification",
+    "description": "Multi-step authentication for driver's licenses, passports, and global documents. AI-powered parsing and OCR with JSON responses.",
+    "icon": "id-card",
+    "link": "/products/digital-identity-verification"
+  },
+  {
+    "id": 2,
+    "title": "Document Authentication",
+    "description": "Template matching, security feature detection, and tamper detection. Barcode/visual cross-checking and fraud detection.",
+    "icon": "shield-check",
+    "link": "/products/document-authentication"
+  },
+  {
+    "id": 3,
+    "title": "Biometric Face Match",
+    "description": "One-to-one face matching with liveness detection and anti-spoofing. Ensures the document belongs to the person submitting it.",
+    "icon": "face-id",
+    "link": "/products/face-match"
+  },
+  {
+    "id": 4,
+    "title": "Access & Visitor Management",
+    "description": "Verify guests, manage entry, and enforce watchlists. Door integrations, denylist enforcement, and complete audit logs.",
+    "icon": "door-open",
+    "link": "/products/access"
+  },
+  {
+    "id": 5,
+    "title": "Hardware + Software Bundles",
+    "description": "Scanners, kiosks, and handheld devices for physical point-of-entry verification. Enterprise-ready with full integration support.",
+    "icon": "device",
+    "link": "/products/hardware"
+  }
+]
