@@ -1,6 +1,3 @@
-'use client';
-
-import { useEffect, use } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import AnnouncementBar from '@/components/layout/announcement-bar';
@@ -8,24 +5,31 @@ import SimpleNavigation from '@/components/layout/simple-navigation';
 import Footer from '@/components/layout/footer';
 import CTASection from '@/components/layout/cta-section';
 import blogData from '@/data/blog.json';
+import { Metadata } from 'next';
 
 interface BlogSinglePageProps {
   params: Promise<{ slug: string }>;
 }
 
-export default function BlogSinglePage({ params }: BlogSinglePageProps) {
-  const { slug } = use(params);
+export async function generateStaticParams() {
+  return blogData.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+export async function generateMetadata({ params }: BlogSinglePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = blogData.find(p => p.slug === slug);
+  return {
+    title: post ? `${post.title} | unfamiliar.id` : 'Resource Not Found | unfamiliar.id',
+  };
+}
+
+export default async function BlogSinglePage({ params }: BlogSinglePageProps) {
+  const { slug } = await params;
 
   // Find the blog post based on the slug
   const post = blogData.find(p => p.slug === slug);
-
-  useEffect(() => {
-    if (post) {
-      document.title = `${post.title} | unfamiliar.id`;
-    } else {
-      document.title = 'Resource Not Found | unfamiliar.id';
-    }
-  }, [post]);
 
   if (!post) {
     return (

@@ -1,19 +1,31 @@
-'use client';
-
-import { use } from 'react';
 import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import CTASection from '@/components/layout/cta-section';
 import Footer from '@/components/layout/footer';
 import Link from 'next/link';
 import jobsData from '@/data/jobs.json';
+import { Metadata } from 'next';
 
 interface JobPageProps {
   params: Promise<{ id: string }>;
 }
 
-export default function JobPage({ params }: JobPageProps) {
-  const { id } = use(params);
+export async function generateStaticParams() {
+  return jobsData.map((job) => ({
+    id: job.id.toString(),
+  }));
+}
+
+export async function generateMetadata({ params }: JobPageProps): Promise<Metadata> {
+  const { id } = await params;
+  const job = jobsData.find(j => j.id === parseInt(id));
+  return {
+    title: job ? `${job.title} | Careers | unfamiliar.id` : 'Job Not Found | unfamiliar.id',
+  };
+}
+
+export default async function JobPage({ params }: JobPageProps) {
+  const { id } = await params;
   const job = jobsData.find(j => j.id === parseInt(id));
 
   if (!job) {
